@@ -2,13 +2,13 @@
 
 namespace Database\Factories;
 
-use App\Models\category;
+use App\Models\Tag;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Illuminate\Support\Carbon;
 
-class categoriesFactory extends Factory
+class TagFactory extends Factory
 {
-    protected $model = category::class;
+    protected $model = Tag::class;
 
     public function definition(): array
     {
