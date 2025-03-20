@@ -1,12 +1,6 @@
 <?php
 
-use App\Http\Controllers\User\CreatePostController;
-use App\Http\Controllers\User\DeletePostController;
-use App\Http\Controllers\User\DestroyPostController;
-use App\Http\Controllers\User\EditPostController;
-use App\Http\Controllers\User\IndexPostController;
-use App\Http\Controllers\User\StorePostController;
-use App\Http\Controllers\User\UpdatePostController;
+use App\Http\Controllers\User\Post\{IndexPostController, CreatePostController, DestroyPostController, StorePostController, DeletePostController, EditPostController,UpdatePostController};
 use Illuminate\Support\Facades\Route;
 
 Route::get('posts', IndexPostController::class)->name('posts.index');

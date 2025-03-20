@@ -1,8 +1,9 @@
 <?php
 
-namespace App\Http\Controllers\User;
+namespace App\Http\Controllers\User\Post;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\UpdatePostRequest;
 use App\Models\Post;
 
 class UpdatePostController extends Controller
